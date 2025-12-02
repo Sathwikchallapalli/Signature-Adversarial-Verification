@@ -137,10 +137,10 @@ Train Siamese or Triplet networks for signature embeddings
 Add visual explainability (Grad-CAM)  
 Deploy as an API for real-time verification  
 
-👥 Contributors
-Challapalli Sathwik
-Talasila Revanth
-B Sanjeev Roy
+👥 Contributors:  
+Challapalli Sathwik  
+Talasila Revanth  
+B Sanjeev Roy  
 
 📚 References
 Goodfellow et al., Explaining and Harnessing Adversarial Examples
