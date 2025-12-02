@@ -8,7 +8,7 @@
 Handwritten signature verification models are increasingly used in digital documentation, banking, and biometric authentication. 
 However, deep learning models are vulnerable to **adversarial attacks** — tiny intentionally crafted perturbations that can trick a trained classifier into labeling forged signatures as genuine.
 
-This project investigates:
+This project investigates:  
 ✔️ Model accuracy against adversarial examples  
 ✔️ Impact of FGSM perturbations on model predictions  
 ✔️ How **adversarial training** improves robustness  
@@ -98,46 +98,44 @@ The model is retrained using mixed batches:
 
 ---
 
-# 📂 Project Structure
-Signature-Adversarial-Verification/
+# 📂 Project Structure  
+Signature-Adversarial-Verification/  
 │
-├── src/ # Source code
-│ └── signature_verification_adversarial.py
+├── src/ # Source code  
+│ └── signature_verification_adversarial.py  
 │
-├── docs/ # Documentation
-│ └── Project_Report.pdf
+├── docs/ # Documentation  
+│ └── Project_Report.pdf  
 │
-├── assets/ # Images / plots / sample outputs
+├── assets/ # Images / plots / sample outputs    
 │
-├── models/ # (optional) saved weights
-│
-├── requirements.txt
-├── LICENSE
-└── README.md
----
+├── requirements.txt  
+├── LICENSE  
+└── README.md  
+---  
 
 # ▶️ Running Locally
 
-1️⃣ Install dependencies
+1️⃣ Install dependencies  
 pip install -r requirements.txt
 
 2️⃣ Run the projectpython
-src/signature_verification_adversarial.py
-Note: This script was developed in Google Colab.
-Local paths may need modification depending on your environment.
+src/signature_verification_adversarial.py  
+Note: This script was developed in Google Colab.  
+Local paths may need modification depending on your environment.  
 
 📄 Full Project Report
-The complete documentation with diagrams and experimental results is provided here:
+The complete documentation with diagrams and experimental results is provided here:  
 docs/Project_Report.pdf
 
 🧪 Future Improvements
-Evaluate stronger adversarial attacks:
-PGD
-DeepFool
-CW
-Train Siamese or Triplet networks for signature embeddings
-Add visual explainability (Grad-CAM)
-Deploy as an API for real-time verification
+Evaluate stronger adversarial attacks:  
+PGD  
+DeepFool  
+CW  
+Train Siamese or Triplet networks for signature embeddings  
+Add visual explainability (Grad-CAM)  
+Deploy as an API for real-time verification  
 
 👥 Contributors
 Challapalli Sathwik
